@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="first_text">sight of comets shower praising beauty</string>
+    <string name="second_text">Diverse Surface of earth mountains,huge seas etc..</string>
+    <string name="third_text">View from space-shuttle of Sun-earth</string>
+    <string name="fourth_text">Asteroids,planets.etc......</string>
+    <string name="Previous">Previous</string>
+    <string name="Next">Next</string>
+
+</resources>
