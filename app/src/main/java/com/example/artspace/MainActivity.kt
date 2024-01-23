@@ -3,6 +3,7 @@ package com.example.artspace
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -61,6 +62,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     ArtSpaceApp()
 
+
                 }
             }
         }
@@ -105,6 +107,7 @@ fun ImageWithTextAndButton(modifier: Modifier = Modifier) {
                 .height(600.dp)
                 .clip(RoundedCornerShape(16.dp))
                 .border(BorderStroke(width = 3.dp, color = Color.Gray))
+                .animateContentSize()
         )
         Spacer(modifier = Modifier.height(16.dp))
 
